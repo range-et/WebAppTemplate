@@ -1,0 +1,18 @@
+{
+  "name": "webapptemplate",
+  "version": "1.0.0",
+  "description": "A webapp template that I use for everything - a python/flask backend with a node based HTML/CSS/JS front end",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "prebuild": "npm run clean",
+    "build": "parcel build src/index.html --dist-dir dist",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Indrajeet Haldar",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "rimraf": "^5.0.5"
+  }
+}
