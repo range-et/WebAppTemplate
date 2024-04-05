@@ -18,3 +18,6 @@ def serve(path):
         return Response(content, mimetype=mime_type)
     else:
         return send_from_directory(app.static_folder, 'index.html')
+
+if __name__ == "__main__":
+    app.run(debug=True)
