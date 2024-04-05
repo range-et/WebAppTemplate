@@ -60,7 +60,7 @@ Serving with Flask
 To serve your project using Flask, run:
 
 ```bash
-flask run
+python app.py
 ```
 
 Your project should now be accessible at ```http://localhost:5000```
@@ -76,7 +76,7 @@ npm start
 And in another terminal, run your Flask application for backend functionality:
 
 ```bash
-flask run
+python app.py
 ```
 
 Clearing the dist directory before builds
