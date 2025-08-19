@@ -5,14 +5,15 @@
   "scripts": {
     "clean": "rimraf dist/",
     "prebuild": "npm run clean",
-    "build": "parcel build src/index.html --dist-dir dist",
-    "start": "parcel src/index.html"
+    "build": "vite build",
+    "start": "vite",
+    "dev": "vite --open"
   },
   "keywords": [],
   "author": "Indrajeet Haldar",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.11.0",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "vite": "^7.1.3"
   }
 }
